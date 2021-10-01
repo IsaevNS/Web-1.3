@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "TT Lakes";
+  src: url("../fonts/TTLakes-Medium.eot");
+  src: local("../fonts/TT Lakes Medium"), local("../fonts/TTLakes-Medium"),
+    url("../fonts/TTLakes-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/TTLakes-Medium.woff") format("woff"),
+    url("../fonts/TTLakes-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  margin: 0;
+  background-color: #ffff;
+  width: 100%;
+  min-height: 88px;
+  align-items: center;
+  justify-content: space-around;
+}
+.header__icon {
+  width: 40px;
+  height: 40px;
+  background-color: #ff3e79;
+  border-radius: 50%;
+  border: 0;
+}
+main {
+  position: absolute;
+  width: 100%;
+  height: 87%;
+  background: #f8f8f8;
+}
+.title {
+  margin-top: 24px;
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.title__text {
+  font-family: "TT Lakes";
+  font-weight: bold;
+  margin-left: 12px;
+  font-size: 28px;
+  line-height: 40px;
+}
+nav {
+  margin-top: 24px;
+  margin-left: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: scroll;
+}
+.nav__button {
+  padding: 8px 5%;
+  width: auto;
+  border: none;
+  background: #f8f8f8;
+  height: 40px;
+}
+.nav__button--style {
+  font-family: "TT Lakes";
+  white-space: nowrap;
+  letter-spacing: -0.2px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7e7e82;
+}
+.nav__button--active {
+  background: #ffffff;
+  border: 2px solid #b8ffec;
+  border-radius: 6px;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 24px;
+  height: 60%;
+  background: #ffffff;
+}
+.text-block {
+  margin: 0 16px;
+
+  min-width: 288px;
+  width: 50%;
+}
+.text-block--style {
+  font-family: "TT Lakes";
+  text-align: left;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #1b1c21;
+}
+.read-more {
+  margin: 16px 0;
+  border: none;
+  background: none;
+}
+.read-more__text--style {
+  font-family: "TT Lakes";
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #1b1c21;
+  vertical-align: top;
+}
+.picture-block {
+  box-sizing: border-box;
+  flex-grow: 1;
+}
